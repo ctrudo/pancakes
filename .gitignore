@@ -1,0 +1,19 @@
+# Webstorm Editor Config #
+########################
+.idea
+
+# Project Generated Files #
+###########################
+# from npm and bower install
+node_modules
+bower_components
+
+#from gulp build
+**/style/css
+target
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+dist.zip
