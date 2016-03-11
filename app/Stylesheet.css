@@ -1,7 +1,19 @@
-table {
-    border: solid black 2px;
-    font-family: Arial;
+div {
+    border: solid black 1px;
+    font-family: Gotham;
     background-color: deepskyblue;
     margin: auto;
     padding: 20px;
+    align-content: center;
+    text-align: justify;
+}
+
+#twitterLogo {
+    height:69px;
+    width:69px;
+
+}
+
+#twitterTitle {
+    align-content: center;
 }
