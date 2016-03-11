@@ -2,7 +2,7 @@
  * Created by ctrudo on 3/10/16.
  */
 window.onload = function(){
-    var tweets = getTweets();
+    getTweets();
 };
 
 function buildList(response){
