@@ -1,19 +1,31 @@
+
+header {
+    font-family: "Times New Roman";
+    font-size: 69px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
 div {
-    border: solid black 1px;
-    font-family: Gotham;
-    background-color: deepskyblue;
-    margin: auto;
-    padding: 20px;
-    align-content: center;
-    text-align: justify;
+    font-family: Geneva;
+    background-color: #00bfff;
+    padding: 30px;
+    text-align: center;
+
 }
 
 #twitterLogo {
-    height:69px;
-    width:69px;
+    height: 69px;
+    width: 69px;
 
 }
 
 #twitterTitle {
-    align-content: center;
+
+}
+
+.twitterHeader {
+    display: inline;
 }
