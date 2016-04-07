@@ -9,13 +9,17 @@ window.onload = function(){
 function buildList(response){
     var tweets = response.tweets;
     var listElement = document.getElementById('twitter-list');
+    var div = document.createElement("div");
 
     for(var i = 0; i < tweets.length; i++){
-        var div = document.createElement("div");
-        var node = document.createTextNode(tweets[i].text);
-        div.appendChild(node);
-        listElement.appendChild(div);
+        var anchorTag = document.createElement('a');
+        anchorTag.setAttribute('href', 'url-here' + tweets[i].id);
+        anchorTag.innerHTML = tweets[i].text;
+        anchorTag.style.color = tweets[i].color;
+        div.appendChild(anchorTag);
+        div.appendChild(document.createElement('br'));
     }
+    listElement.appendChild(div);
 }
 
 function getTweets(){
